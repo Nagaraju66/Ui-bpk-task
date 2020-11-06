@@ -1,0 +1,26 @@
+<div class="container">
+    <table class="table table-striped">
+        <thead>
+          <tr>            
+            <th scope="col">First Name</th>
+            <th scope="col" (click)="sort('lastName')">Last Name &nbsp;<i class="fa fa-sort"></i></th>
+            <th scope="col">City</th>
+            <th scope="col">Phone Number</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor = "let user of allUsers | orderBy:key:reverse ">          
+            <td>{{user.firstName}}</td>
+            <td>{{user.lastName}}</td>
+            <td>{{user.city}}</td>
+            <td>{{user.phoneNumber}}</td>         
+          </tr>
+        
+        </tbody>
+      </table>
+</div>
+
+
+<br>
+
+

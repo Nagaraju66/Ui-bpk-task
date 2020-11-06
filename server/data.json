@@ -1,0 +1,25 @@
+{
+  "data": [
+    {
+      "firstName": "Nagaraju",
+      "lastName": "Thalluri",
+      "city": "Hyderabad",
+      "phoneNumber": "8985397239",
+      "id": 1
+    },
+    {
+      "firstName": "Abhi",
+      "lastName": "Alasalu",
+      "city": "Hyd",
+      "phoneNumber": "8756985434",
+      "id": 2
+    },
+    {
+      "firstName": "Ramu",
+      "lastName": "Gunja",
+      "city": "Banglore",
+      "phoneNumber": "7698543254",
+      "id": 3
+    }
+  ]
+}
